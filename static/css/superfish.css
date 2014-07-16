@@ -1,8 +1,9 @@
 .menu_block {
+    text-align: center;
 	z-index: 999;
 	padding: 20px 0 21px;
 	position: relative;
-	background-color: #2a394e;
+    background: url('../images/bg.jpg');
 }
 
 .menu_block nav {

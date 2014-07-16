@@ -7,6 +7,7 @@
 		<link rel="icon" href="images/favicon.ico">
 		<link rel="shortcut icon" href="images/favicon.ico" />
 		<link rel="stylesheet" href="./static/css/style.css">
+		<link rel="stylesheet" href="./static/css/menu.css">
 		<!--<link href='http://fonts.googleapis.com/css?family=Economica:700' rel='stylesheet' type='text/css'>-->
 		<script src="./static/js/jquery.js"></script>
 		<script src="./static/js/jquery-migrate-1.1.1.js"></script>
@@ -35,32 +36,28 @@
 	</head>
 	<body class="page1" id="top">
 <!--==============================header=================================-->
-		<div class="main">
-			<header>
-				<div class="clear"></div>
-				<div class="container_12">
-					<div class="grid_12">
-						<h1>
-							<a href="index.html">
-								<img src="./static/images/logo.png" alt="Your Happy Family">
-							</a>
-						</h1>
-					</div>
-				</div>
-			</header>
-		</div>
 		<div class="menu_block">
 			<div class="container_12">
 				<div class="grid_12">
-					<nav class="horizontal-nav full-width horizontalNav-notprocessed">
-						<ul class="sf-menu">
-							<li class="current"><a href="index.html">Home</a></li>
-							<li><a href="index-1.html">About</a></li>
-							<li><a href="index-2.html">Gallery</a></li>
-							<li><a href="index-3.html">Video</a></li>
-							<li><a href="index-4.html">Contacts</a></li>
-						</ul>
-					</nav>
+                    <nav id="menu">
+                    <div style="text-align: center; clear: both;">
+                    <script src="./static/gg_bd_ad_720x90.js" type="text/javascript"></script>
+                    <script src="./static/follow.js" type="text/javascript"></script>
+                    </div>
+                        <ul>
+                            <li class="rocket"><a href="">Item menu 1</a></li>
+                            <li class="wine"><a href="">Item menu 2</a></li>
+                            <li class="burger"><a href="">Item menu 3</a></li>
+                            <li class="comment"><a href="">Item menu 4</a></li>
+                            <li class="sport" ><a href="">Item menu 5</a></li>
+                            <li class="earth"><a href="">Item menu 6</a></li>
+                            <div class="current">
+                                <div class="top-arrow"></div>   
+                                <div class="current-back"></div>
+                                <div class="bottom-arrow"></div>
+                            </div>
+                        </ul>
+                    </nav>
 					<div class="clear"></div>
 				</div>
 				<div class="clear"></div>
