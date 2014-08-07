@@ -236,37 +236,91 @@ a.btn:hover {
 header {
 	display: block;
     overflow: hidden;
-    padding: 28px 0 0;
     position: relative;
 
 }
 
+#main-header {
+    display: block;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: 100;
+    background: rgb(255, 255, 255);
+    -webkit-box-shadow:  0px 7px 7px -2px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow:  0px 7px 7px -2px rgba(0, 0, 0, 0.3);
+    box-shadow:  0px 7px 7px -2px rgba(0, 0, 0, 0.3);
+}
 
-header h1 {
-	position: relative;
+header#main-header {
+    height: 109px;
+}
+
+#header-wrapper, .max-width {
+    max-width: 1920px;
+    margin-top: 0px;
+    margin: 0px auto;
+}
+
+#header-content {
+    overflow: hidden;
+    max-width: 75%;
+    margin: 0 12.5%;
+    padding: 0;
+    min-width: 0;
+}
+
+#logo {
+    width: 20%;
+    height: 200px;
+    margin-left: 0px;
+    position: relative;
+    float: left;
+}
+
+#nav {
+    float: left;
+    width: 80%;
+}
+
+#topnav .login a:hover,
+#topnav .register a:hover {
+    color: #505654;
+    text-decoration: underline;
+}
+
+#sign .login,
+#sign .register {
+    position: relative;
+    display: inline;
+    top: 5px;
+    float: right;
+    display: block;
+    margin-left: 10px;
+}
+
+#topnav .pipe {
+    padding: 0 0 0 10px;
+    color: #d1cfcf;
+    position: relative;
+    top: 1px;
+}
+
+#nav-module {
+    margin: 1%;
+    padding: 1%;
     text-align: center;
-    z-index: 800;
-    margin-bottom: 23px;
 }
 
-
-
-header h1 a {
-	display: inline-block;
-	overflow: hidden;
-	width: 238px;
-    height: 97px;
-	font-size: 0;
-	line-height: 0;
-	text-indent: -999px;
-	transition: 0s ease;
-	-o-transition: 0s ease;
-	-webkit-transition: 0s ease;
-}
-header h1 a img {
-	display: block;
+#nav-module ul li {
+    padding: 1%;
+    margin-left: 3%;
+    display: inline-block;
 }
 
+.Clear {
+    clear: right;
+}
 
 /**Content**/
 

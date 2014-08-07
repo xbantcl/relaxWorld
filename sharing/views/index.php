@@ -36,34 +36,39 @@
 	</head>
 	<body class="page1" id="top">
 <!--==============================header=================================-->
-		<div class="menu_block">
-			<div class="container_12">
-				<div class="grid_12">
-                    <nav id="menu">
-                    <div style="text-align: center; clear: both;">
-                    <script src="./static/gg_bd_ad_720x90.js" type="text/javascript"></script>
-                    <script src="./static/follow.js" type="text/javascript"></script>
-                    </div>
-                        <ul>
-                            <li class="rocket"><a href="">Item menu 1</a></li>
-                            <li class="wine"><a href="">Item menu 2</a></li>
-                            <li class="burger"><a href="">Item menu 3</a></li>
-                            <li class="comment"><a href="">Item menu 4</a></li>
-                            <li class="sport" ><a href="">Item menu 5</a></li>
-                            <li class="earth"><a href="">Item menu 6</a></li>
-                            <div class="current">
-                                <div class="top-arrow"></div>   
-                                <div class="current-back"></div>
-                                <div class="bottom-arrow"></div>
-                            </div>
-                        </ul>
-                    </nav>
-					<div class="clear"></div>
+		<header id="main-header">
+			<div id="header-wrapper">
+				<div id="header-content">
+					<nav>
+						<div id="logo" style="background: gray;">
+							<h1>
+								<a href="/" title="sharing"><span class="acc">分享</span></a>
+							</h1>
+						</div>
+						<div id="nav">
+							<div id="topnav" style="background: red;">
+								<div id="sign">
+									<ul>
+										<li class="register"><a href="#">注册 Register</a></li>
+										<li class="login"><a href="#">登陆 Sign In</a><span class="pipe">|</span></li>
+									</ul>
+								</div>
+							</div>
+							<div id="bottomnva" class="Clear">
+								<div id="nav-module">
+									<ul>
+										<li><a href="#">图片墙</a></li>
+										<li><a href="#">小厨房</a></li>
+										<li><a href="#">吐槽墙</a></li>
+										<li><a href="#">关于我</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</nav>
 				</div>
-				<div class="clear"></div>
 			</div>
-		</div>
-		<div class="main">
+		</header>
 <!--==============================Content=================================-->
 			<div class="content"><div class="ic">More Website Templates @ TemplateMonster.com - December 30, 2013!</div>
 				<div class="container_12">
