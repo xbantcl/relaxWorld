@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>分享登陆</title>
+<link rel="stylesheet" href="./static/css/flexi-background.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="./static/css/styles.css" type="text/css" media="screen" />
+</head>
+<body>
+<script src="js/flexi-background.js" type="text/javascript" charset="utf-8"></script>
+<div id="box"> <img src="images/logo.png" class="logo" alt="yourlogo" />
+  <h1>Member Login</h1>
+  <form>
+    <input type="text" onClick="this.value='';" onFocus="this.select()" onBlur="this.value=!this.value?'Username':this.value;" value="Username" />
+    <input type="password" onClick="this.value='';" onFocus="this.select()" onBlur="this.value=!this.value?'Password':this.value;" value="Password">
+    <input type="checkbox" id="remember" value="Remember" />
+    <div class="hover-opacity">
+      <label for="remember">Remember me</label>
+    </div>
+    <input type="button" name="" value="登  陆" />
+  </form>
+</div>
+<a href="http://www.divmb.com" class="forgot">Forgot your username or password?</a>
+</body>
+</html>
