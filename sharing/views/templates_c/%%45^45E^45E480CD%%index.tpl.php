@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.28, created on 2014-08-24 22:16:47
+<?php /* Smarty version 2.6.28, created on 2014-08-25 22:50:37
          compiled from index.tpl */ ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -55,7 +55,7 @@
 								<div id="sign">
 									<ul>
 										<li class="register"><a href="#">注册 Register</a></li>
-										<li class="login"><a href="#">登陆 Sign In</a><span class="pipe">|</span></li>
+										<li class="login"><a href="user/login">登陆 Sign In</a><span class="pipe">|</span></li>
 									</ul>
 								</div>
 							</div>

@@ -3,12 +3,12 @@
 <head>
 <meta charset="utf-8" />
 <title>分享登陆</title>
-<link rel="stylesheet" href="./static/css/flexi-background.css" type="text/css" media="screen" />
-<link rel="stylesheet" href="./static/css/styles.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="../static/css/login-flexi-background.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="../static/css/login-styles.css" type="text/css" media="screen" />
 </head>
 <body>
-<script src="js/flexi-background.js" type="text/javascript" charset="utf-8"></script>
-<div id="box"> <img src="images/logo.png" class="logo" alt="yourlogo" />
+<script src="../static/js/login-flexi-background.js" type="text/javascript" charset="utf-8"></script>
+<div id="box"> <img src="../static/images/login-logo.png" class="logo" alt="yourlogo" />
   <h1>Member Login</h1>
   <form>
     <input type="text" onClick="this.value='';" onFocus="this.select()" onBlur="this.value=!this.value?'Username':this.value;" value="Username" />

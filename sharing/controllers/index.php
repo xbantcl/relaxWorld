@@ -7,7 +7,7 @@ class Index extends CI_Controller {
     }
 
 	public function index()
-	{
+	{   
 	    $this->smarty->view('index.tpl');
 	}
 }

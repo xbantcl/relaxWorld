@@ -52,7 +52,7 @@
 								<div id="sign">
 									<ul>
 										<li class="register"><a href="#">注册 Register</a></li>
-										<li class="login"><a href="#">登陆 Sign In</a><span class="pipe">|</span></li>
+										<li class="login"><a href="user/login">登陆 Sign In</a><span class="pipe">|</span></li>
 									</ul>
 								</div>
 							</div>
